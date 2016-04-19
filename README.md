@@ -10,6 +10,12 @@ You don't need this repository to simply use the docker image.
 docker pull bmyerz/py-opencv
 docker run -i -t bmyerz/py-opencv /bin/bash
 ```
+Once in the shell, you can test the installation
+```bash
+workon cv
+python
+>>> import cv2
+```
 
 # Building the image
 You can rebuild the image from the Dockerfile
